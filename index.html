@@ -11,6 +11,7 @@
   flex-direction: column;
   overflow-y: scroll;
   font-family: Arial, sans-serif;
+  overflow-x:hidden;
   }
 .div1 {
   background-color: black;
@@ -22,6 +23,7 @@
   width: 100%;
   font-size: 20px;
   gap:10px;
+  flex-direction:column;
 }
 .img1 {
   border-radius: 50%;
@@ -44,49 +46,40 @@
    border-radius: 8px;
    text-align: center;
    width:28%;
+  height:700px;
 }
 .a img{
   height:400px;
   border-radius:10px;
 }
-.div4,.div5,.div6,.div7{
+.hi{
   background:#fafafa;
 }
 .div4{
   color:black;
   display:flex;
-  flex-direction:center;
+  flex-direction:column;
   align-items:center;
   width:100%;
 }
-.h,.div5,div6,div7{
+.h,.div5,div6{
   display:flex;
   align-items:center;
   justify-content:center;
   width:100%;
+  flex-direction:column;
 }
 .div5{
   font-family:"Lora",serif;
   font-style:italic;
   margin:40px;
-}
-
-  
-  
-
-      
-
-  
-
-  
-  
-
+}  
     </style>
   </head>
   <body>
     <div class="div1">
       <h1>French Restaurent<img class="img1" src="logo.png" alt="Logo" /></h1>
-      <h1>"Authentic French flavors, crafted with passion."</h1>
+      <h3>"Authentic French flavors, crafted with passion."</h3>
     </div>
       <div class="div3">
         <div class = "a">
@@ -120,10 +113,12 @@ A soulful dish from the heart of rural France.
 Serve warm with crusty bread or buttery potatoes.</p>
         </div>
       </div>
-
+<div class="hi">
     <div class="div4">
       <div class="h"><h1>About Us</h1></div>
-      <p>Short paragraph about the restaurant.</p>
+      <p>Bienvenue to the heart of French cuisine.
+At our restaurant, we bring the rich flavors of France to your table — from buttery croissants to slow-cooked classics like Coq au Vin. Every dish is crafted with tradition, elegance, and passion, offering you a truly authentic French dining experience.
+</p>
     </div>
 
     <div class="div5">
@@ -137,10 +132,6 @@ Serve warm with crusty bread or buttery potatoes.</p>
       <p>123 Main Street, City</p>
       <p>Mon-Fri: 9am - 10pm</p>
     </div>
-
-    <div class ="div7">
-      <img class="img6" src="social-facebook.png" alt="Facebook" />
-      <img class="img7" src="social-instagram.png" alt="Instagram" />
-    </div>
+</div>
   </body>
 </html>
